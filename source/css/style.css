@@ -6,7 +6,7 @@
 
 body,
 html {
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: "Poppins", sans-serif;
 }
 
@@ -18,20 +18,11 @@ h1 {
 .bg-image {
   width: 100vw;
   height: 100vh;
+  background: url("../image/north.jpg") no-repeat center/cover;
+  filter: saturate(150%) blur(2px) contrast(80%);
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.bg-image .txt {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.05);
 }
 .bg-image em {
   display: inline-block;
@@ -39,6 +30,30 @@ h1 {
   height: 25px;
   position: relative;
   left: 5px;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  top: -700px;
+}
+.txt h1,
+.txt p {
+  text-align: center;
+}
+.txt div {
+  padding: 15px 100px;
+  border: 1px solid rgba(245, 245, 245, 0.596);
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 10px black;
+  box-shadow: 1px 1px 20px 0px rgba(245, 245, 245, 0.692);
 }
 
 /*# sourceMappingURL=style.css.map */
