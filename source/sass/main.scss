@@ -1,0 +1,64 @@
+// RESET
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+// overflow, borderbox, font
+body,
+html {
+
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+// h1
+h1 {
+
+    text-transform: uppercase;
+    font-size: 4rem;
+
+}
+
+// wallpaper and txt
+.bg-image {
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    & .txt {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 10px;
+    border: 1px solid black;
+    border-radius: 5px;    
+    height: 200px;
+
+    background-color: rgba(0, 0, 0, 0.05);    
+
+    }
+
+    & em {
+
+        display: inline-block;
+        transform: rotate(90deg);
+        height: 25px;
+
+        position: relative;
+        left: 5px;
+    }
+
+}
