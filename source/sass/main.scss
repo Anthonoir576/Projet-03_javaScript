@@ -97,4 +97,23 @@ h1 {
 
 // JS
 
+// PLUIE
+.fa-tint {
+
+    color: rgb(160, 160, 160);
+    position: absolute;
+    top: -20px;
+    animation: fall linear forwards;
+
+}
+
+@keyframes fall {
+
+    to {
+
+        transform: translateY(105vh);
+    }
+
+}
+
 

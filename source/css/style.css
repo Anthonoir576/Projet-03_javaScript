@@ -56,4 +56,17 @@ h1 {
   box-shadow: 1px 1px 20px 0px rgba(245, 245, 245, 0.692);
 }
 
+.fa-tint {
+  color: #a0a0a0;
+  position: absolute;
+  top: -20px;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
