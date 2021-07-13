@@ -7,6 +7,8 @@
 
 }
 
+
+
 // overflow, font
 body,
 html {
@@ -14,9 +16,9 @@ html {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
 
-  
-
 }
+
+
 
 // h1
 h1 {
@@ -25,6 +27,8 @@ h1 {
     font-size: 4rem;
 
 }
+
+
 
 // wallpaper and txt
 .bg-image {
@@ -50,6 +54,7 @@ h1 {
     }
 
 }
+
 .txt {
 
     display: flex;
@@ -63,12 +68,12 @@ h1 {
     position: relative;
     top: -700px;
 
-        & h1,
-        p {
+    & h1,
+    p {
 
-            text-align: center;
+        text-align: center;
 
-        }
+    }
     
     & div {
 
@@ -87,3 +92,9 @@ h1 {
 
 
 }
+
+
+
+// JS
+
+
